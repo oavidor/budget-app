@@ -1,0 +1,26 @@
+.basic-input {
+    border: 1px solid rgba(178, 187, 213, 0.5);
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+    min-width: 230px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    justify-content: space-between;
+}
+
+.basic-input-input {
+    border: none;
+}
+
+.basic-input:focus{
+    border-color: 1px solid rgba(178, 187, 213, 0.5);
+    outline: 1px solid rgba(178, 187, 213, 0.5)
+}
+
+.basic-input:active{
+    border-color: 1px solid rgba(178, 187, 213, 0.5);
+    outline: 1px solid rgba(178, 187, 213, 0.5)
+}

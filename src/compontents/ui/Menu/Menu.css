@@ -1,0 +1,43 @@
+.menu-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #EE2032;
+    background: #FDE8EA !important;
+    border-radius: 4px;
+}
+
+.menu-item-text{
+    padding: 8px 10px;
+}
+   
+.menu-popover{
+    background: #FFFFFF;
+    border: 1px solid rgba(178, 187, 213, 0.5);
+    box-shadow: 0px 4px 16px rgba(24, 32, 51, 0.12);
+    border-radius: 4px; 
+    width: 160px;
+    right: 0;
+    left: auto;
+    z-index: 200
+}
+
+.menu-icon-contaier{
+    padding: 3px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu-icon-contaier:hover{
+    background: #FDE8EA !important;
+}

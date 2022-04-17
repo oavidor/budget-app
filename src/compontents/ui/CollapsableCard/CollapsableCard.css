@@ -1,0 +1,50 @@
+
+.card-header{
+    background: #F6F7FB;
+    border: 1px solid rgba(178, 187, 213, 0.5);
+    border-radius: 4px 4px 0px 0px;
+    padding: 0.5em 1em;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222A41;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.card-content{
+    border: 1px solid rgba(178, 187, 213, 0.5);
+    border-top: none;
+    border-radius: 0px 0px 4px 4px;
+    height: 580px;
+    padding: 32px;
+}
+
+.arrow-down{
+    transform: rotate(360deg);
+}
+
+.arrow-up{
+    transform: rotate(180deg);
+}
+    
+.card-header-content {
+    padding: 0 0 0 1.5em;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+ }
+ 
+
+ .show {
+     display: block;
+ }
+
+ .card {
+    margin-bottom: 0.5em
+ }

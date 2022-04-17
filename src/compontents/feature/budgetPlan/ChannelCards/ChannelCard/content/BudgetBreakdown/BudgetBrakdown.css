@@ -1,0 +1,35 @@
+
+.breakdown-title{
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #182033;
+}
+
+.breakdown-sub-title{
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #99A4C2;
+    width: auto
+}
+
+
+.breakdown-box-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.breakdown-input{
+    min-width: 160px;
+    padding: 10px;
+}
+
+.breakdown-field {
+    margin-right: 24px;
+    margin-bottom: 24px;
+}

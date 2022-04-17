@@ -1,0 +1,51 @@
+.basic-select {
+    background: linear-gradient(360deg, #FAFAFC 0%, #FFFFFF 100%);
+    border: 1px solid rgba(178, 187, 213, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px #E6E8F0;
+    border-radius: 3px;
+    min-width: 230px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.selected-value{
+font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #2A3558;
+}
+
+.option-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.option-item:hover{
+    background: #f8f7f7;
+    border-radius: 4px;
+}
+
+.option-item-text{
+ padding: 8px 10px;
+}
+
+.option-selected{
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #EE2032;
+    background: #FDE8EA !important;
+    border-radius: 4px;
+}

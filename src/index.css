@@ -1,0 +1,18 @@
+
+@font-face {
+  font-family: "Avenir Next";
+  src: local("Avenir Next"), url('../public/fonts/AvenirNextFont.ttf') format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+body {
+  margin: 0;
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2F3B66;
+
+}

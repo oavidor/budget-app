@@ -1,0 +1,14 @@
+
+.content{
+    padding-top: 20px;
+}
+
+.hide {
+   display: none;
+}
+
+
+
+.show {
+    display: block;
+}

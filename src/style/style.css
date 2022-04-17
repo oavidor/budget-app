@@ -1,0 +1,23 @@
+.container-center{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.text{
+font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #2F3B66;
+}
+
+.arrow-down{
+    transform: rotate(360deg);
+}
+
+.arrow-up{
+    transform: rotate(180deg);
+}
+    

@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.icon{
+    margin-right: 0.5em;
+}
+
+.space-evenly{
+    justify-content: space-between;
+}
+
+.title{
+    /* flex-basis: 90%; */
+}
